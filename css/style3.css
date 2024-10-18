@@ -1,0 +1,24 @@
+/* #box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+#box2{
+    height: 50px; */
+    /* width: 30px;  absolute unit means fixed unit*/
+    /* width: 30%; relative unit in this case width  of dis 30% of div1 */
+    /* background-color: yellow; }*/
+
+    div{
+        height: 100px;
+        width: 100px;
+        background-color: aqua;
+        border: 2px solid black;
+        display: inline-block;
+
+    }
+       #box1{
+        background-image: url("cat.jpg");
+        background-size:cover;
+       }
+

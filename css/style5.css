@@ -1,0 +1,21 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+}
+@media (width:600px){
+div{
+    background-color: red;
+}
+}
+/* for 600 px or more than 600 px */
+/* @media (min-width:600px){
+    div{
+        background-color: greenyellow;
+    }
+} */
+@media (max-width:600px){
+    div{
+        background-color: greenyellow;
+    }
+}

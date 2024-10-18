@@ -1,0 +1,32 @@
+
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+li{
+    list-style-type: none ;
+    display:  inline-block;
+    
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+     /* for main axis for center or something we use justify-content */
+     justify-content: center;  
+     /* for cross axis we use align items */
+     align-items: center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+   
+}
+
